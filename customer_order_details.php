@@ -130,7 +130,7 @@ if (isset($_SESSION["name"]) && isset($_SESSION["user_id"])) {
                                 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="home.php">Home</a></li>
                                         <li><a href="about.php">About</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="food_zone.php">Food Zone</a></li>
