@@ -48,9 +48,9 @@
         <?php endif ?>
 
         <span style="padding-right: 10px;">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="home.php">Home</a>
-        </li>
+        </li> -->
         </span>
 
         <?php if(isset($_SESSION['authenticated'])) : ?>

@@ -65,7 +65,7 @@ if (isset($_SESSION["vendor_name"]) && isset($_SESSION["vendor_id"])) {
                     
                 </div>
 
-                <div style="text-align: right;">Welcome, <?php echo $vendor_name; ?>!</div> 
+                <div style="text-align: center;">Welcome, <?php echo $vendor_name; ?>!</div> 
                 
                 
                 <!--Top Right-->
@@ -123,9 +123,9 @@ if (isset($_SESSION["vendor_name"]) && isset($_SESSION["vendor_id"])) {
                         
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
-                                    <li><a href="vendor.php">Home</a> </li>
+                                    <li><a href="Vendor.php">Home</a> </li>
                                     <li><a href="about.php">About</a></li>
-                                    <li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                                    <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>  -->
                                 <li class="dropdown"><a href="#">My Profile</a>
                                     <ul>
                                         <li><a href="view_items.php">View Food Items</a></li>
@@ -176,7 +176,7 @@ if (isset($_SESSION["vendor_name"]) && isset($_SESSION["vendor_id"])) {
                 <ul class="navigation clearfix">
                 <li><a href="vendor.php">Home</a> </li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="bmi_calculator.php">Calculate BMI</a></li>  
+                <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
                                             <li><a href="view_items.php">View Food Items</a></li>

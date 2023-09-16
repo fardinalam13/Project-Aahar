@@ -247,7 +247,7 @@ if (isset($_SESSION["name"]) && isset($_SESSION["user_id"])) {
   <div class="contact-form default-form">
     	<div class="auto-container">	
         	<div class="row clearfix">
-            <h2 style="text-align: center; color: green;">Send A Message to us </h2>
+            <h2 style="text-align: center; color: green;">Help us with your valuable feedback</h2>
                 <div class="form-column pull-right col-md-6 col-sm-12 col-xs-12">
                 	<div class="inner-box">
                     	<div class="sec-title">

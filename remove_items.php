@@ -152,9 +152,9 @@ if (isset($_SESSION["vendor_name"])) {
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                <li><a href="vendor.php">Home</a> </li>
+                                <li><a href="Vendor.php">Home</a> </li>
                                 <li><a href="about.php">About</a></li>
-                                <li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                                <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
                                 <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
                                             <li><a href="vendor.php">My Home</a></li>
@@ -202,7 +202,7 @@ if (isset($_SESSION["vendor_name"])) {
                         
                     </li>
                     <li><a href="about.php">About</a></li>
-                                    <<li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                                    <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
                                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
                                         <li><a href="vendor.php">My Home</a></li>

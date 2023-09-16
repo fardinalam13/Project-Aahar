@@ -26,7 +26,7 @@ include('includes/navbar.php');
                 <div class="card shadow">
                     <div class="card-header">
 
-                    <h4 style="text-align: center;">Log In Form for Vendors</h4>
+                    <h4 style="text-align: center;">Log-In Form for Vendors</h4>
                     <h5 style="text-align: center;">with email varification</h5>
 
                     </div>

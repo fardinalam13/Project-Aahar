@@ -464,7 +464,7 @@ if (isset($_GET['paymentID'],$_GET['status']) && $_GET['status'] == 'success') {
         ?>
 
 
-            <h4> <div class="clearfix">Total Price: <?php echo "$gtotal"; ?> BDT <span class = "theme-btn btn-style-three pull-right"> </span></div></h4>
+            <h4> <div class="clearfix">Total Price: <?php echo "$gtotal"; ?> BDT <!--<span class = "theme-btn btn-style-three pull-right"> </span>--></div></h4>
             <h5> Deliver Charge : 20 BDT</h5>
             <?php $full_payment =20 + $gtotal; ?>
             <h4> <b> You Have to Pay:  <?php echo "$full_payment";?> BDT</b></h4>
@@ -593,7 +593,7 @@ $(document).ready(function () {
             window.location.href = 'customer_order_details.php';
         } else if ($('#payment-4').is(':checked')) { // Check if the "PayPal" option is selected
             // Redirect to paypal_payment.php
-            window.location.href = 'https://sandbox.payment.bkash.com/redirect/tokenized/?paymentID=TR0011b78a19F1694881604561&hash=1ox9KR4!6B_mZ1x*mUthVpLg-Uf*Hm2*PlMIHa0*_5-rWQXC_3cC*kUkeqPjnjz(Ha)Kg)3X-yuCF8rM2K3XmsgfY!04yWMYEs*T1694881605067&mode=0011&apiVersion=v1.2.0-beta';
+            window.location.href = 'https://sandbox.payment.bkash.com/redirect/tokenized/?paymentID=TR0011mlrR3sY1694896634099&hash=NSZzwYsvXvOi25S8fu35MCDXMOdHSoWLxSdFSO6DO0lpq71X-PdUyuI)rFD9L1.giThySCZHBijXs0st()QriPd1o3cOvMjHOt5l1694896638715&mode=0011&apiVersion=v1.2.0-beta';
         } else {
             // If no payment option is selected, display an error message
             alert("Please select a payment option.");

@@ -184,7 +184,7 @@ if (isset($_SESSION["vendor_name"])) {
                                 <ul class="navigation clearfix">
                                     <li><a href="index.php">Home</a> </li>
                                     <li><a href="about.php">About</a></li>
-                                    <li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                                    <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>  -->
     
                                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
@@ -231,12 +231,12 @@ if (isset($_SESSION["vendor_name"])) {
             <div class="side-menu">
             	<!-- .navigation -->
                 <ul class="navigation clearfix">
-                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="Vendr.php">Home</a> </li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                    <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
-                                        <li><a href="vendor.php">My Home</a></li>
+                                        <li><a href="Vendor.php">My Home</a></li>
                                             <li><a href="view_items.php">View Food Items</a></li>
                                             <li><a href="add_item.php">Add Food Items</a></li>
                                             <li><a href="remove_items.php">Remove Food Items</a></li>

@@ -173,7 +173,7 @@ $vendor_id = $_SESSION["vendor_id"];
                                 <ul class="navigation clearfix">
                                     <li><a href="vendor.php">Home</a> </li>
                                     <li><a href="about.php">About</a></li>
-                                    <li><a href="bmi_calculator.php">Calculate BMI</a></li>  
+                                   <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
     
                                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
@@ -219,11 +219,11 @@ $vendor_id = $_SESSION["vendor_id"];
             <div class="side-menu">
             	<!-- .navigation -->
                 <ul class="navigation clearfix">
-                    <li><a href="vendor.php">Home</a>
+                    <li><a href="Vendor.php">Home</a>
                         
                     </li>
                     <li><a href="about.php">About</a></li>
-                                    <<li><a href="bmi_calculator.php">Calculate BMI</a></li> 
+                                   <!-- <li><a href="bmi_calculator.php">Calculate BMI</a></li>-->
                                     <li class="dropdown"><a href="#">My Profile</a>
                                         <ul>
                                         <li><a href="vendor.php">My Home</a></li>

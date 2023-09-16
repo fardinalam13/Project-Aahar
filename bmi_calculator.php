@@ -125,7 +125,7 @@
                                     	<ul>
                                             <li><a href="home.php">Home</a></li>
                                             <li><a href="about.php">About</a></li>
-                                            <li><a href="shopping-cart.php">Shopping Cart</a></li>
+                                            <li><a href="food_cart.php">Food Cart</a></li>
                                             <li><a href="check_out.php">Checkout</a></li>
                                             <li><a href="bmi_calculator.php">BMI Calculator</a></li>
                                             <li><a href="food_zone.php">Food Zone</a></li>

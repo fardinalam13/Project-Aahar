@@ -131,8 +131,8 @@ if (isset($_SESSION["name"]) && isset($_SESSION["user_id"])) {
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                         <li><a href="food_zone.php">Food Zone</a></li>
                                        
                                         
@@ -180,8 +180,8 @@ if (isset($_SESSION["name"]) && isset($_SESSION["user_id"])) {
                     <ul class="navigation clearfix">
                     <ul class="navigation clearfix">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                         <li><a href="food_zone.php">Food Zone</a></li>
                                        
                                      </ul>
