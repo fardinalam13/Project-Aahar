@@ -28,7 +28,7 @@ if (isset($_SESSION["name"]) && isset($_SESSION["user_id"])) {
 <?php
 require_once('vendor/autoload.php');
 
-$callbackURL = 'http://localhost/Aahar/home.php';
+$callbackURL = 'http://localhost/Aaaahar/home.php';
 
 $app_key ='4f6o0cjiki2rfm34kfdadl1eqq';
 $app_secret ='2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b';
