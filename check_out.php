@@ -593,7 +593,7 @@ $(document).ready(function () {
             window.location.href = 'customer_order_details.php';
         } else if ($('#payment-4').is(':checked')) { // Check if the "PayPal" option is selected
             // Redirect to paypal_payment.php
-            window.location.href = 'https://sandbox.payment.bkash.com/redirect/tokenized/?paymentID=TR0011mlrR3sY1694896634099&hash=NSZzwYsvXvOi25S8fu35MCDXMOdHSoWLxSdFSO6DO0lpq71X-PdUyuI)rFD9L1.giThySCZHBijXs0st()QriPd1o3cOvMjHOt5l1694896638715&mode=0011&apiVersion=v1.2.0-beta';
+            window.location.href = 'https://sandbox.payment.bkash.com/redirect/tokenized/?paymentID=TR0011i0lEcPY1694923171707&hash=RwWVF!4wnCTJWtACA_z(c(vmy7umXW5_69ys0yguuNe2q(MC5oNRHcHogAs-CSuyKjPSwcNZwgM2U)gEIP3BHLM)xFR_HOWomDCr1694923176605&mode=0011&apiVersion=v1.2.0-beta';
         } else {
             // If no payment option is selected, display an error message
             alert("Please select a payment option.");

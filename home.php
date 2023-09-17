@@ -115,7 +115,7 @@
                                             <li><a href="about.php">About</a></li>
                                             <li><a href="food_cart.php">Food Cart</a></li>
                                             <li><a href="check_out.php">Checkout</a></li>
-                                            <li><a href="bmi_calculator.php">BMI Calculator</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
                                             <li><a href="food_zone.php">Food Zone</a></li>
 
                                         </ul>
